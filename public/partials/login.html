@@ -1,0 +1,18 @@
+<h1 class="text-center">Login</h1>
+<div class="alert alert-danger" role="alert" ng-show="error.message">
+  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+  <span class="sr-only">Error:</span>
+  {{error.message}}
+</div>
+<form ng-submit="login()">
+	<div class="input-group input-group">
+  <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
+  <input type="text" name="username" ng-model="user.username" class="form-control" placeholder="Username" ng-bind="userName" aria-describedby="basic-addon1">
+  	</div>
+  	<div class="input-group input-group">
+  <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock"></span></span>
+  <input type="password" name="password" ng-model="user.password" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+</div>
+	<span>Save Login</span> <input type="checkbox" name="checkbox" ng-model="user.checkbox"><br>
+	<button type="submit" class="btn btn-primary">Submit</button>
+</form>
