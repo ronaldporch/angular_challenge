@@ -4,9 +4,9 @@ This repository represents an implementation of the MEAN Stack in the structure 
 
 ## How to Use
 
-* Fork repository (git clone https://github.com/ronaldporch/angular_challenge)
-* Install npm dependencies (npm install)
-* Run MongoDB Server along with Node.js Server (mongod && npm start)
+* Fork repository ```git clone https://github.com/ronaldporch/angular_challenge```
+* Install npm dependencies ```npm install```
+* Run MongoDB Server along with Node.js Server ```mongod && npm start```
 
 * Visit the Register Page from the Navigation Bar
 * Enter in User Name, Email, and Password. Uses HTML5 Validation for missing fields, backend validation for Unique fields.
